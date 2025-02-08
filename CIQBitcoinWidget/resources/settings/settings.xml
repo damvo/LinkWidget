@@ -1,0 +1,42 @@
+<settings>
+	<setting propertyKey="@Properties.currency" title="@Strings.currency">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.USD</listEntry>
+			<listEntry value="1">@Strings.EUR</listEntry>
+			<listEntry value="2">@Strings.CNY</listEntry>
+			<listEntry value="3">@Strings.GBP</listEntry>
+			<listEntry value="4">@Strings.CAD</listEntry>
+			<listEntry value="5">@Strings.ZAR</listEntry>
+			<listEntry value="6">@Strings.PLN</listEntry>
+			<listEntry value="7">@Strings.AUD</listEntry>
+			<listEntry value="8">@Strings.HKD</listEntry>
+			<listEntry value="9">@Strings.NOK</listEntry>
+		</settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.backend" title="@Strings.backend">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.CoinGecko</listEntry>
+			<listEntry value="1">@Strings.CoinMarketCap</listEntry>
+			<listEntry value="2">@Strings.Coinbase</listEntry>
+			<listEntry value="3">@Strings.Bitstamp</listEntry>
+			<listEntry value="4">@Strings.Kraken</listEntry>
+		</settingConfig>
+	</setting>
+	<setting propertyKey="@Properties.dateformat" title="@Strings.dateformat">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.mmddyyyy</listEntry>
+			<listEntry value="1">@Strings.ddmmyyyy</listEntry>
+		</settingConfig>
+	</setting>
+	<setting propertyKey="@Properties.timeformat" title="@Strings.timeformat">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.hr12</listEntry>
+			<listEntry value="1">@Strings.hr24</listEntry>
+		</settingConfig>
+	</setting>
+	<setting propertyKey="@Properties.apikey" title="@Strings.apikey" helpUrl="https://pro.coinmarketcap.com/">
+		<settingConfig type="alphaNumeric" required="false"></settingConfig>
+	</setting>
+
+</settings>
