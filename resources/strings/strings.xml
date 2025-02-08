@@ -1,5 +1,5 @@
 <strings>
-    <string id="AppName" scope="glance">Bitcoin</string>
+<string id="AppName" scope="glance">Chainlink</string>
     <string id="currency">Currency</string>
     <string id="USD">USD</string>
     <string id="EUR">EUR</string>

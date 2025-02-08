@@ -21,8 +21,7 @@ class BitcoinApp extends App.AppBase {
     
     	AppBase.initialize();
     	
-    	cryptoBackend = new BitcoinBackend("BTC");
-    	
+cryptoBackend = new LinkBackend("LINK");    	
 		getCurrencyProperty();
 		getBackendProperty();
 		getAPIKeyProperty();
